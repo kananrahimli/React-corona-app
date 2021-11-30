@@ -79,7 +79,7 @@ const List = () => {
                 ))}
                 </select>
                 <div className="col-md-3 px-0 mx-0 postion-relative">
-                    <input  type="text" ref={inputRef} className="form-control " placeholder="Search.." onInput={(e)=>search(e.target.value)} />
+                    <input  type="text" ref={inputRef} className="form-control mt-md-0 mt-4" placeholder="Search.." onInput={(e)=>search(e.target.value)} />
 
                     {searching &&  <div className="w-100 search-results">
                         <ul className="list-unstyled px-2">
